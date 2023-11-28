@@ -1,0 +1,117 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+.fenetre{
+    display: flex;
+    width: 100vw;
+}
+.flex-column{
+    display: flex;
+    flex-direction: column;
+}
+.flex{
+    display: flex;
+}
+span{
+    color: #fff;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 600;
+}
+h1{
+    margin: 10px 0 0 20px;
+    font-size: 1.3em;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 600;
+}
+p{
+    color: #f1efef;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+a{
+    text-decoration: none;
+}
+.bar-left{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(51, 50, 50);
+    width: 19vw;
+    min-height: 100vh;
+}
+.image-icon{
+    margin-right: 20px;
+    background-color: #fff;
+    padding: 6px;
+    height: 5.3vh;
+    width: 2.5vw;
+    border-radius: 20px;
+}
+.nav-head{
+    align-items: center;
+}
+.nav-item{
+    padding-left: 30px;
+    height: 9vh;
+}
+.nav-treeview{
+    margin-left: 1.7vw;
+}
+li{
+    list-style: none;
+}
+.nav-icon{
+    position: relative;
+    top: 20px;
+    left: -25px;   
+}
+.bar-right{
+    width: 81vw;
+    min-height: 100vh;
+    background-image: url(./img/back1.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.content-main{
+    margin-top: 10vh;
+    display: flex;
+    justify-content: center;
+}
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 9vh;
+    width: 100v;
+    background-color: #5e5e5e;
+    padding: 0 40px;
+}
+.table-title{
+    height: 9vh;
+    border: #2e2d2d solid 2px;
+    border-radius: 4px 4px 0 0;
+    background-color: rgb(75, 144, 201);
+}
+.button{
+    height: 5vh;
+    width: 9vw;
+    font-weight: 500;
+    border: none;
+    border-radius: 3px;
+}
+table{
+    border-collapse: collapse;
+    border-radius: 4px;
+}
+tr{
+    height: 8vh;
+    border: #2e2d2d solid 2px;
+    
+}
+td, th{
+    text-align: center;
+    width: 20vw;
+    border: #2e2d2d solid 2px;
+}
