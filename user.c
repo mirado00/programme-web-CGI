@@ -1,13 +1,15 @@
 #include "code.h"
 
 int main(){
-    printf("Content-type:text/html\n\n");
-    showCode("./menu.html");
     int nbr=0;
     char **user=declaration2D(50, 200);
     char **script=declaration2D(50, 200);
+
+    printf("Content-type:text/html\n\n");
+    showCode("./menu.html");
+    
     getInfoUser(user, script, &nbr);
-    printf("<div>"
+    printf("<div >"
             "<div class='table-title'>"
             "<h1>List d'Utilisateur</h1>"
             "</div>"

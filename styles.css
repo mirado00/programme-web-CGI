@@ -21,12 +21,12 @@ span{
     font-weight: 600;
 }
 h1{
-    margin: 10px 0 0 20px;
     font-size: 1.3em;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-weight: 600;
 }
 p{
+    font-size: .9em;
     color: #f1efef;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
@@ -34,6 +34,7 @@ a{
     text-decoration: none;
 }
 .bar-left{
+    position: fixed; 
     display: flex;
     flex-direction: column;
     background-color: rgb(51, 50, 50);
@@ -53,10 +54,10 @@ a{
 }
 .nav-item{
     padding-left: 30px;
-    height: 9vh;
+    height: 8vh;
 }
 .nav-treeview{
-    margin-left: 1.7vw;
+    padding-left: 1.7vw;
 }
 li{
     list-style: none;
@@ -67,28 +68,40 @@ li{
     left: -25px;   
 }
 .bar-right{
+    position: absolute; 
+    top: 0;
+    left: 19vw;
     width: 81vw;
     min-height: 100vh;
-    background-image: url(./img/back1.png);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
 }
 .content-main{
-    margin-top: 10vh;
+    overflow-y: auto;
+    margin-top: 9vh;
     display: flex;
     justify-content: center;
+    height: 91vh;
+    width: 81vw;
+    background-image: url(./img/back1.png);
+    background-position: 20vw 3vh;
+    background-size: 81vw 104vh;
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
 }
 .navigation{
+    position: fixed;  
     display: flex;
     justify-content: space-between;
     align-items: center;
     height: 9vh;
-    width: 100v;
+    width: 81vw;
     background-color: #5e5e5e;
     padding: 0 40px;
 }
 .table-title{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10vh;
+    padding: 12px 3vw 0 1.5vw ;
     height: 9vh;
     border: #2e2d2d solid 2px;
     border-radius: 4px 4px 0 0;
@@ -101,14 +114,25 @@ li{
     border: none;
     border-radius: 3px;
 }
+.button-page{
+    height: 4vh;
+    width: 2vw;
+    border: solid #2e2d2d 1px;
+}
+.button-page1{
+    height: 4vh;
+    width: 5vw;
+    border: solid #2e2d2d 1px;
+    font-size: .6em;
+}
 table{
+    max-width: 70vw;
     border-collapse: collapse;
     border-radius: 4px;
 }
 tr{
     height: 8vh;
     border: #2e2d2d solid 2px;
-    
 }
 td, th{
     text-align: center;

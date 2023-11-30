@@ -68,3 +68,10 @@ char **split(char *chaine, char *delimiter, int *nbr){
     *nbr=i-1;
     return result;
 }
+char *getRequet(char *requet){
+    char **get=declaration2D(10, 400);
+    int nbr=0;
+    get=split(requet, "=", &nbr);
+    strcpy(requet, get[1]);
+    return requet;
+}

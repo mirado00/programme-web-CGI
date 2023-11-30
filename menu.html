@@ -1,66 +1,87 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="http://www.webc.com/my_web/styles.css">
-    <link rel="stylesheet" href="http://www.webc.com/my_web/fontawesome-free/css/all.min.css">
-    <title>Manandrana MiAdmin</title>
-</head>
-<body>
-  <div class="fenetre">
-    <aside class="bar-left">
-      <a href="#" class="nav-head flex nav-item">
-          <img src="http://www.webc.com/my_web/img/icon.png" class="image-icon">
-          <span class="">Devoir</span>
-      </a>
-      <hr>
-      <!--  -->
-      <a href="#" class="nav-link nav-item">
-        <i class="nav-icon fas fa-list"></i>
-        <p>
-          info sur system
-        </p>
-      </a>
-      <a href="#" class="nav-link nav-item">
-        <i class="nav-icon fas fa-server"></i>
-        <p>
-          configuration  Apache
-        </p>
-      </a>
-      <ul class="nav nav-treeview">
-        <li class="nav-item">
-          <a href="../../index.html" class="nav-link">
-            <i class="far fa-circle nav-icon "></i>
-            <p>Nouveau server</p>
-          </a>
-        </li>
-        <li class="nav-item">
-          <a href="../../index.html" class="nav-link">
-            <i class="far fa-circle nav-icon"></i>
-            <p>List du Server</p>
-          </a>
-        </li>
-        <li class="nav-item">
-          <a href="../../index.html" class="nav-link">
-            <i class="far fa-circle nav-icon"></i>
-            <p>Modification</p>
-          </a>
-        </li>
-      </ul>
-      <!--     -->
-    </aside>
-    <div class="bar-right flex-column">
-      <nav class="navigation">
-        <a href="#" class="">
-            <img src="http://www.webc.com/my_web/img/admin1.png" class="image-icon">
-            <span class="">Aina Mirado</span>
+  <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="http://www.webc.com/my_web/styles.css">
+      <link rel="stylesheet" href="http://www.webc.com/my_web/fontawesome-free/css/all.min.css">
+      <title>Manandrana MiAdmin</title>
+  </head>
+  <body>
+    <div class="fenetre">
+      <aside class="bar-left">
+        <a href="#" class="nav-head flex nav-item">
+            <img src="http://www.webc.com/my_web/img/icon.png" class="image-icon">
+            <span class="">Devoir</span>
         </a>
-        <form action="#" method="get" >
-            <input type="submit" name="name" value="se deconnecter" class="button">
-        </form>
-      </nav>
-      <div class="content-main">
+        <hr>
+        <!--  -->
+        <a href="#" class="nav-link nav-item">
+          <i class="nav-icon fas fa-list"></i>
+          <p>
+            info sur system
+          </p>
+        </a>
+        <ul class="nav-treeview">
+          <li class="nav-item">
+            <a href="http://www.webc.com/cgi-bin/user.cgi" class="nav-link">
+              <i class="far fa-circle nav-icon "></i>
+              <p>Liste Des Utilisateur</p>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="http://www.webc.com/cgi-bin/authLog.cgi" class="nav-link">
+              <i class="far fa-circle nav-icon "></i>
+              <p>Authentification d'tilisateur</p>
+            </a>
+          </li>
+        </ul>
+        <a href="#" class="nav-link nav-item">
+          <i class="nav-icon fas fa-server"></i>
+          <p>
+            configuration  Apache
+          </p>
+        </a>
+        <ul class="nav-treeview">
+          <li class="nav-item">
+            <a href="../../index.html" class="nav-link">
+              <i class="far fa-circle nav-icon "></i>
+              <p>Nouveau server</p>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="../../index.html" class="nav-link">
+              <i class="far fa-circle nav-icon"></i>
+              <p>List du Server</p>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="../../index.html" class="nav-link">
+              <i class="far fa-circle nav-icon"></i>
+              <p>Modification</p>
+            </a>
+          </li>
+        </ul>
+        <!--     -->
+      </aside>
+      <div class="bar-right flex-column">
+        <nav class="navigation">
+          <a href="#" class="">
+              <img src="http://www.webc.com/my_web/img/admin1.png" class="image-icon">
+              <span class="">Aina Mirado</span>
+          </a>
+          <div class="search">
+            <form action="http://www.webc.com/cgi-bin/authLog.cgi" method="get">
+              <input type="search" name="search" id="search" aria-label="search">
+              <button class="btn btn-sidebar">
+                <i class="fas fa-search fa-2x"></i>
+              </button>
+            </form>
+          </div>
+          <form action="#" method="get" >
+              <input type="submit" name="name" value="se deconnecter" class="button">
+          </form>
+        </nav>
+        <div class="content-main">
 
-      
 
